@@ -261,7 +261,7 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
   .app{
     margin-top: 3rem;
   }
