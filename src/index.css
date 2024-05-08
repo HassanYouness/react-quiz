@@ -269,9 +269,10 @@ progress {
     flex-direction: column;
     width: 90vw;
   }
+
   h1 {
     font-family: "Codystar";
-    font-size: 3.9rem;
+    font-size: 3.5rem;
   }
 
   h2 {
