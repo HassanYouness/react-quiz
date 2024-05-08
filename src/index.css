@@ -4,7 +4,7 @@
   --color-medium: #ced4da;
   --color-light: #f1f3f5;
 
-  --color-theme: #1098ad;
+  --color-theme: #10b0c9;
   --color-accent: #ffa94d;
 }
 
@@ -262,8 +262,11 @@ progress {
   padding: 0.8rem;
 }
 @media screen and (max-width: 1000px) {
+  .app{
+    margin-top: 3rem;
+  }
   .main {
-    width: 90vw;
+    width: 95vw;
   }
   .app-header {
     flex-direction: column;
@@ -281,7 +284,7 @@ progress {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
     margin-bottom: 4rem;
   }
