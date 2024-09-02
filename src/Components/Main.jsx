@@ -86,8 +86,10 @@ function Main() {
   useEffect(function () {
     async function question() {
       const data = await getQuestions();
-      console.log(data)
+
+     setTimeout(() => {
       dispatch({ type: "dataRecived", payload: data });
+     }, 2000);
     }
 
     question();

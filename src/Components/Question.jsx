@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Options from "./Options";
 function Question({ questions, dispatch, answer }) {
   const { question, options, correctOption, points } = questions;
