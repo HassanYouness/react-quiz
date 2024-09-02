@@ -84,12 +84,12 @@ function Main() {
   const maxPoints = questions.reduce((prev, cur) => prev + cur.points, 0);
 
   useEffect(function () {
-    async function question() {
-      const data = await getQuestions();
+     function question() {
+      const data =  getQuestions();
 
      setTimeout(() => {
       dispatch({ type: "dataRecived", payload: data });
-     }, 2000);
+     }, 1000);
     }
 
     question();
